@@ -1,4 +1,10 @@
 # Web crawler
+How it works
+-Load the application
+-Provide a target URL and a tag to be fetched example img,p, title
+-Receive a response - the requested element(s) content.
+-For images, there will be a download functionality that will save the images to your downloads directory
+
 ## Requirements ,Packages used and Installation
 Download and install Python. Make sure you install Python v3.6.+
 
