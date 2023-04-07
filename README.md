@@ -1,4 +1,10 @@
 # Web crawler
+How it works 
+ - Load the application
+ - Provide a target URL and a tag to be fetched example img,p, title
+ - Receive a response - the requested element(s) content.
+ - For images, there will be a download functionality that will save the images to your downloads directory
+
 ## Requirements ,Packages used and Installation
 Download and install Python. Make sure you install Python v3.6.+
 
@@ -44,3 +50,6 @@ pip install -r requirements.txt
 ### 4. Run the application
 Then on your browser open localhost:5000 or http://127.0.0.1:5000/
 
+![web-crawler-page](https://user-images.githubusercontent.com/22620680/229380301-66285480-8719-46df-ab6c-8c9be12e479b.png)
+![web-crawler-page-result-1](https://user-images.githubusercontent.com/22620680/229380304-5efd4491-86ad-4332-ab5e-c240ace3532a.png)
+![web-crawler-page-result-2](https://user-images.githubusercontent.com/22620680/229380306-8abb6559-1531-418f-a495-8e63566d0902.png)
